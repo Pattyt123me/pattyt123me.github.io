@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Sh*t On Amazon</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #ff4500 0%, #ff6347 100%);
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
+            font-family: 'Pacifico', cursive;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 10px;
+            background: linear-gradient(135deg, #ff4500 0%, #ff6347 100%);
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .container {
+            width: 90%;
+            margin: 2em auto;
+            padding: 2em 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-grow: 1;
+        }
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1em;
+            padding: 1em;
+            width: 300px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            overflow: hidden;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            margin-bottom: 1em;
+            transition: transform 0.2s;
+        }
+        .product:hover img {
+            transform: scale(1.05);
+        }
+        .product h2 {
+            margin: 0.5em 0;
+            font-size: 1.5em;
+            color: #ff4500;
+        }
+        .product p {
+            margin: 0.5em 0;
+            font-size: 1em;
+            color: #666;
+        }
+        .product a {
+            display: inline-block;
+            background-color: #ff4500;
+            color: white;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 1em;
+            transition: background-color 0.2s;
+        }
+        .product a:hover {
+            background-color: #ff6347;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Cool Sh*t On Amazon
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/511OIJHGPgL._AC_SX679_.jpg" alt="Product Image 1">
+            <h2>Booty Mug</h2>
+            <p>This hilarious mug is perfect for teens who love quirky humor. It’s a great conversation starter!</p>
+            <a href="https://www.amazon.com/Novelty-Gifts-Ceramic-Feminine-Valentines/dp/B0CKWD7TCZ?crid=3PV3VB9Q0TRV8&dib=eyJ2IjoiMSJ9.2vNo13PbEpDPKQn6_e1fLrv0-S3tcKcbHAxYTshai7AHP2VAQpJbdBmWnXoL57cu1CESA-dzgpz-h2WOAETUjgsao6YJncQ2QuEyi1dD5zPZsE7o9wpUsuyd4fCEARKlwVIbQWor_EEeZKOHrsArxz-YG3xFPuDQTrV7eQT3afD_ibMLTdO1B46jaxCbO3YK_thHadpOwu11UnqkjbMWO7P-wE3AOi-mPt7Wgy52NHt0gndEfkVuhsujOc1tswS2d5esYwT_H-N2CtRFZZNhwvmWiBCLFzprIwnvtM6jPUw.OUNDOhvW4rCXVR5xaunJYQS677gY3VAmz_c0raqxB4E&dib_tag=se&keywords=funny%2Bshaped%2Bmugs&qid=1716569255&sprefix=funny%2Bmugs%2Bsh%2Caps%2C280&sr=8-3&th=1&linkCode=ll1&tag=clickme123pat-20&linkId=6f261d15804dc7aabf1185eb2bc101e1&language=en_US&ref_=as_li_ss_tl" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/51y4aWz4ZxL._AC_SX679_.jpg" alt="Product Image 2">
+            <h2>Wearable Duck Blanket</h2>
+            <p>This colorful and comfy unicorn onesie is a hit with teens. Perfect for sleepovers and parties!</p>
+            <a href="https://amzn.to/3WWabd4" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/41vxftmvt1L._AC_.jpg" alt="Product Image 3">
+            <h2>Funny Holding Hands Socks</h2>
+            <p>These fun and quirky socks come in a variety of designs. A must-have for any teen’s wardrobe!</p>
+            <a href="https://amzn.to/44U4f6c" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71H-eAvlH2L._AC_SX522_.jpg" alt="Product Image 4">
+            <h2>LED Lights</h2>
+            <p>These LED string lights add a touch of magic to any room. Perfect for creating a cozy atmosphere.</p>
+            <a href="https://amzn.to/3ywLY2N" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product Image 5">
+            <h2>Retro Gaming Console</h2>
+            <p>Bring back the nostalgia with this retro gaming console. Hours of fun with classic games!</p>
+            <a href="https://www.amazon.com" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product Image 6">
+            <h2>Quirky Phone Case</h2>
+            <p>Stand out from the crowd with this quirky phone case. A great way to express your personality.</p>
+            <a href="https://www.amazon.com" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product Image 7">
+            <h2>Funny T-Shirt</h2>
+            <p>This funny T-shirt is sure to get laughs. Perfect for teens with a great sense of humor.</p>
+            <a href="https://www.amazon.com" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Product Image 8">
+            <h2>Portable Bluetooth Speaker</h2>
+            <p>Take your music anywhere with this portable Bluetooth speaker. Great sound and easy to use.</p>
+            <a href="https://www.amazon.com" target="_blank">Buy on Amazon</a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Cool Sh*t On Amazon
+    </footer>
+</body>
+</html>
